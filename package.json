@@ -1,6 +1,6 @@
 {
   "name": "@davidcraig/wow",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WoW CSS variables",
   "main": "wow.css",
   "scripts": {
