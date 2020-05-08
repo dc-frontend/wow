@@ -1,4 +1,5 @@
 :root {
+  /* Classes */
   --wow-class-priest: #fff;
   --wow-class-mage: #69CCF0;
   --wow-class-warlock: #9482C9;
@@ -11,7 +12,18 @@
   --wow-class-deathknight: #C41F3B;
   --wow-class-warrior: #C79C6E;
   --wow-class-paladin: #F58CBA;
+  /* Rarity */
+  --wow-rarity-poor: #9d9d9d;
+  --wow-rarity-common: #fff;
+  --wow-rarity-uncommon: #1eff00;
+  --wow-rarity-rare: #0070dd;
+  --wow-rarity-epic: #a335ee;
+  --wow-rarity-legendary: #ff8000;
+  --wow-rarity-artifact: #e6cc80;
+  --wow-rarity-heirloom: #00ccff;
 }
+
+/* Classes */
 
 /* Forground (text color) */
 .fg-deathknight, a.fg-deathknight { color: var(--wow-class-deathknight); }
@@ -66,3 +78,34 @@
 .bg-shaman-important, a.bg-shaman-important { background-color: var(--wow-class-shaman) !important; }
 .bg-warlock-important, a.bg-warlock-important { background-color: var(--wow-class-warlock) !important; }
 .bg-warrior-important, a.bg-warrior-important { background-color: var(--wow-class-warrior) !important; }
+
+/* Rarity */
+
+/* Foreground */
+.fg-poor { color: var(--wow-rarity-poor); }
+.fg-common { color: var(--wow-rarity-common); }
+.fg-uncommon { color: var(--wow-rarity-uncommon); }
+.fg-rare { color: var(--wow-rarity-rare); }
+.fg-epic { color: var(--wow-rarity-epic); }
+.fg-legendary { color: var(--wow-rarity-legendary); }
+.fg-artifact { color: var(--wow-rarity-artifact); }
+.fg-heirloom { color: var(--wow-rarity-heirloom); }
+
+.fg-poor-important { color: var(--wow-rarity-poor) !important; }
+.fg-common-important { color: var(--wow-rarity-common) !important; }
+.fg-uncommon-important { color: var(--wow-rarity-uncommon) !important; }
+.fg-rare-important { color: var(--wow-rarity-rare) !important; }
+.fg-epic-important { color: var(--wow-rarity-epic) !important; }
+.fg-legendary-important { color: var(--wow-rarity-legendary) !important; }
+.fg-artifact-important { color: var(--wow-rarity-artifact) !important; }
+.fg-heirloom-important { color: var(--wow-rarity-heirloom) !important; }
+
+/* Background */
+.bg-poor-important { background-color: var(--wow-rarity-poor) !important; }
+.bg-common-important { background-color: var(--wow-rarity-common) !important; }
+.bg-uncommon-important { background-color: var(--wow-rarity-uncommon) !important; }
+.bg-rare-important { background-color: var(--wow-rarity-rare) !important; }
+.bg-epic-important { background-color: var(--wow-rarity-epic) !important; }
+.bg-legendary-important { background-color: var(--wow-rarity-legendary) !important; }
+.bg-artifact-important { background-color: var(--wow-rarity-artifact) !important; }
+.bg-heirloom-important { background-color: var(--wow-rarity-heirloom) !important; }
