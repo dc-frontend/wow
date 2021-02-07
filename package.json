@@ -1,7 +1,7 @@
 {
   "name": "@davidcraig/wow",
-  "version": "1.0.1",
-  "description": "WoW CSS variables",
+  "version": "1.0.2",
+  "description": "WoW JS and CSS variables",
   "main": "wow.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
